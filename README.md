@@ -36,3 +36,10 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+
+### Links to deployed app
+
+Link to S3: http://rsschool-task2-spa-vm622-bucket.s3-website-us-east-1.amazonaws.com/ (403 Forbidden)
+
+Link to CloudFront: https://doj9nx2l25qr9.cloudfront.net
