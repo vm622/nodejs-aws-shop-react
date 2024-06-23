@@ -36,3 +36,25 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+## Deployment scripts
+
+Before deployment, AWS credentials should be configured with aws cli.
+
+### `bootstrap`
+
+Prepares environment for deployment. Run before project deployment only once
+
+### `deploy`
+
+Builds the project for production in `dist`and deploys it 
+
+### `destroy`
+
+Destroys the deployment stack
+
+## Links to deployed app
+
+S3 bucket [link](http://rsschool-task2-spa-vm622-bucket.s3-website-us-east-1.amazonaws.com/)
+
+CloudFront [link](https://d1qq1yoa1udc0e.cloudfront.net)

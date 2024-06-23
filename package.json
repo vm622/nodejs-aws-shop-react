@@ -5,6 +5,9 @@
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
+    "bootstrap": "cd aws-deployment && source .venv/Scripts/activate && cdk bootstrap && deactivate",
+    "deploy": "npm run build && cd aws-deployment && source .venv/Scripts/activate && cdk deploy && deactivate",
+    "destroy": "cd aws-deployment && source .venv/Scripts/activate && cdk destroy -f && deactivate",
     "preview": "npm run build && vite preview",
     "test": "vitest",
     "test:ui": "vitest --ui",
